@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SUBSCRIBE</title>
+</head>
+<body>
+    <center>
+        <h1 style="color:rosybrown;">Hali's Film Blog</h1>
+        <style type="text/css">
+            h1 {
+                text-decoration: underline;
+                font-family: 'Times New Roman', Times, serif, font-size: 35px;
+            }
+        </style>
+    </center>
+    <center>
+        <h3>
+            <h3 style="color:rosybrown;"></h3>
+            &nbsp;&nbsp;&nbsp;<a href="index.html">HOME</a> <a href="whats-new.html">WHAT'S NEWS?</a>&nbsp;&nbsp;&nbsp;<a href="new.html">SUBSCRIBE</a>&nbsp;&nbsp;&nbsp;<a href="top-10.html">TOP 10'S</a>
+
+
+        </h3>
+        <style type="text/css">
+            h3 {
+                text-decoration: underline;
+                font-family: 'Times New Roman', Times, serif, font-size: 100px;
+            }
+            /* unvisited link */
+            a:link {
+                color: saddlebrown;
+            }
+
+            /* visited link */
+            a:visited {
+                color: sandybrown;
+            }
+        </style>
+        <h2 style="color:rosybrown;text-decoration: underline;">Subscribe</h2>
+
+    </center>
+    <center>
+
+       
+        <form method="get">
+            <!--Inputs your email address, first name and last name.-->
+            <br /><b><label for="email address">Email Address:</label></i></b>
+            <input type"text" name=" Email Address" placeholder="Please enter you email address" size="80" maxlength=" 100" id="email address" />
+
+            <br /><b><label for="First Name">First Name:</label></b>
+            <input type="text" name=" First Name:" placeholder="Please enter your first name" size=80" maxlength=" 100" id="first name" />
+
+            <br /><b><label for="Last Name">LastName:</label></b>
+            <input type="text" name=" Last Name:" placeholder="Please enter your last name" size="80" maxlength=" 100" id="last name" />
+            <!--input comments on the website-->
+            <br /><br /> <br /><textarea rows="4" cols="40" placeholder="Insert Comments here " name="comments" id="comments"></textarea>
+            <!--Set an age group so we could send age appropiate content and alerts-->
+            <br /><p> Select an age group:</p>
+            <label>
+                <input type="radio" name="Adult(18+)" value="age" />18+<label />
+            <label>
+                <input type="radio" name="Teen(13+)" value="age" />13+<label />
+            <label>
+           <input type="radio" name="Child" value="age" />8+ <label />
+                        
+            <!--You will be able to insert your birthday so we could send a birthday message-->
+            <br/></br/><br /><br />  Birthday (month and year):
+            <input type="month" name="bdaymonth">
+            <!--Send all info in to subsribe to our newsletter-->
+            <br /><br /><br /><input type="submit" value=" subscribe" />      
+        </form>
+    </center>
+
+</body>
+</html>
